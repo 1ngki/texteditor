@@ -1,5 +1,7 @@
 <template>
   <div id="app" class="container">
+    <h1>Task #2</h1>
+    <h2>Text editor</h2>
     <div class="toolbar">
       <button type="button" class="btn btn-primary btn-lg" @click="bold">Bold</button>
       <button type="button" class="btn btn-primary btn-lg" @click="italic">Italic</button>
@@ -110,7 +112,11 @@ export default {
   margin-top: 60px;
 }
 .toolbar {
+  padding-top: 20px;
   padding-bottom: 40px;
+}
+.btn {
+  margin: 3px;
 }
 .editable {
   width: 100%;
